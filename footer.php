@@ -2,7 +2,7 @@
 <div class="footer py-4">
   <div class="container-fluid text-center">
     <p align="center"><a href="aboutus.php"> About Us</a> || <a href="delivery.php">Delivery</a> || <a href="faq.php">FAQ</a>   || <a href="menu.php">Menu</a> || <a href="movie.php?cat=3">Vapes</a> <br />
-        <a href="420%20Vallarta%20Reviews.php">420 Vallarta Reviews </a><br />
+        <a href="420%20Vallarta%20Reviews.php">420 CDMX Reviews </a><br />
       420 Store Locations
    <br />
     <a href="https://420cancun.com.mx/">CANCUN</a> <a href="https://420cdmx.co/">CDMX-MEXICO CITY</a> </p>

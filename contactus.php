@@ -14,8 +14,8 @@ include 'header.php';
 		$code = $_POST['code'];
 		$ordermessage = $_POST['message'];
 		
-		$to = '420vallarta@gmail.com';
-		$from = 'orders@vallartavisitors.com';
+		$to = '420cdmx@gmail.com';
+		$from = 'orders@420cdmx.co';
 		$subject = 'New order';
 		
 		$message = "s
@@ -45,7 +45,7 @@ include 'header.php';
 		exit();
 		
 	}
-?><title>420 Vallarta - Contact Us</title>
+?><title>420 CDMX - Contact Us</title>
 <div class="row justify-content-center">
     <div class="col-md-7">
         <div class="row mb-5">
@@ -132,7 +132,7 @@ include 'header.php';
                   REACH US </strong><br />
                     Via Online Chat<br /> 
                   <br />
-                  Email; <a href="#">info@420vallarta.com</a><br />
+                  Email; <a href="#">info@420cdmx.co</a><br />
                 WhatsApp;  (52)  322 271 7643<br />
                 <a href="faq.php"><br />
                 Frequently Asked Questions</a><br />

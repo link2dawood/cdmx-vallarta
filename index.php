@@ -1,6 +1,6 @@
 <?php
 include 'header.php';
-?><title>420 Vallarta Cannabis Marijuana Featured Products</title>
+?><title>420 CDMX Cannabis Marijuana Featured Products</title>
         <div class="site-section p-0" data-aos="fade">
             <div class="container-fluid">
                 <div class="row justify-content-center">

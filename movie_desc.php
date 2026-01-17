@@ -55,7 +55,7 @@ if(!$query || !($m = mysqli_fetch_array($query))) {
 	  }
 	}
 </style>
-      <title>420 Puerto Vallarta - Cannabis Puerto Vallarta</title><div class="" data-aos=""><br>
+      <title>420 CDMX - Cannabis Mexico City</title><div class="" data-aos=""><br>
 	<div class="container">
 		<div align="" class="desktop-view"><a href="https://click.linksynergy.com/fs-bin/click?id=Co9iEgnoXcA&offerid=759505.377&subid=0&type=4"><IMG border="0"   alt="Start your future with a Data Analysis Certificate." src="images/coursera-banner-1.jpg" style="width:100%"></a></div>
 	</div>
@@ -65,7 +65,7 @@ if(!$query || !($m = mysqli_fetch_array($query))) {
 <div align="center" class="mobile-view" style="display:none"> <a href="https://click.linksynergy.com/fs-bin/click?id=Co9iEgnoXcA&offerid=759505.377&subid=0&type=4"><IMG border="0" alt="Start your future with a Data Analysis Certificate." src="https://ad.linksynergy.com/fs-bin/show?id=Co9iEgnoXcA&bids=759505.377&subid=0&type=4&gridnum=16"></a></div>
 			<br>
 						<div class="col-12 ">
-                          <h3>420 Puerto Vallarta<br />
+                          <h3>420 CDMX<br />
                               <strong>
                                 <?= $m['title']; ?>
                             </strong> </h3>

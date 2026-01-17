@@ -1,6 +1,6 @@
 <?php
 include 'header.php';
-?><title>420 Cannabis Marijuana Menu  Puerto Vallarta - Nuevo Vallarta  Herb, Vape Cartridge Joints Blunts, Edibles Cannabis</title>
+?><title>420 Cannabis Marijuana Menu CDMX Mexico City  Herb, Vape Cartridge Joints Blunts, Edibles Cannabis</title>
 <style type="text/css">
 <!--
 .style1 {
@@ -13,7 +13,7 @@ include 'header.php';
     <div class="col-md-7">
         <div class="row mb-5 site-section">
             <div class="col-12 ">
-                <h2 class="site-section-heading text-center">420 Cannabis Menu Puerto Vallarta </h2>
+                <h2 class="site-section-heading text-center">420 Cannabis Menu CDMX </h2>
 
             <div style="text-align: center; margin: 20px 0;">
                 <a href="product_selector.php" style="background: #007bff; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-size: 18px; display: inline-block;">
@@ -50,37 +50,37 @@ include 'header.php';
             </p>
                 <p/>
             <div align="center" class="style1">420 Cannabis Menu<br />
-              PUERTO VALLARTA<br />
-              NUEVO VALLARTA              </div>
-                <p>Please WhatsApp us for the most current menu availability and pricing<a href="http://420vallarta.com/movie.php?cat=45"> <br />
+              CDMX<br />
+              MEXICO CITY              </div>
+                <p>Please WhatsApp us for the most current menu availability and pricing<a href="movie.php?cat=45"> <br />
                 <br />
                     <strong>JOINTS</strong></a> <br />
                 Pre Roll Joints<br />
                 <br />
-<a href="http://420vallarta.com/movie%20desc.php?id=176">                Black Jack</a><br />
-<a href="http://420vallarta.com/movie%20desc.php?id=148">                Marshmallow</a><br />
-<a href="http://420vallarta.com/movie%20desc.php?id=177">                Bubble Gum</a><br />
-                <a href="http://420vallarta.com/movie_desc.php?id=232">Chocolate</a><br />
-                <a href="http://420vallarta.com/movie desc.php?id=175">Durban Poison</a><br />
-<a href="http://420vallarta.com/movie%20desc.php?id=174"></a><br />
+<a href="movie%20desc.php?id=176">                Black Jack</a><br />
+<a href="movie%20desc.php?id=148">                Marshmallow</a><br />
+<a href="movie%20desc.php?id=177">                Bubble Gum</a><br />
+                <a href="movie_desc.php?id=232">Chocolate</a><br />
+                <a href="movie desc.php?id=175">Durban Poison</a><br />
+<a href="movie%20desc.php?id=174"></a><br />
                 <br />
-            <a href="http://420vallarta.com/movie_desc.php?id=136"><strong> BLUNTS<br />
+            <a href="movie_desc.php?id=136"><strong> BLUNTS<br />
             </strong>Cannabis Cigars 2 Pack</a><br />
-                  <a href="http://420vallarta.com/movie_desc.php?id=230">Cannabis Cigars 5 
+                  <a href="movie_desc.php?id=230">Cannabis Cigars 5 
                 Pack</a><br />
-                <a href="http://420vallarta.com/movie_desc.php?id=238">Premium Cannabis Cigar</a> <br />
+                <a href="movie_desc.php?id=238">Premium Cannabis Cigar</a> <br />
             </p>
-                <p><a href="http://420vallarta.com/movie.php?cat=46"><strong>FLOWER/HERB</strong></a> 4g <br />
+                <p><a href="movie.php?cat=46"><strong>FLOWER/HERB</strong></a> 4g <br />
                   <br />
-                  <a href="http://420vallarta.com/movie_desc.php?id=130">Afghan Kush</a><br />
-                  <a href="http://420vallarta.com/movie_desc.php?id=164">Black Jack</a> <br />
-                  <a href="http://420vallarta.com/movie_desc.php?id=140">Blueberry</a><br />
-<a href="http://420vallarta.com/movie_desc.php?id=141">Bubba Kush</a> <br />
-                  <a href="http://420vallarta.com/movie_desc.php?id=162"></a><a href="http://420vallarta.com/movie_desc.php?id=140">Candy Kush</a> <br />
-                  <a href="https://420vallarta.com/movie_desc.php?id=226">Chocolate Thai</a> <br />
-<a href="http://420vallarta.com/movie_desc.php?id=163">Durban Poison</a><a href="http://420vallarta.com/movie_desc.php?id=160"><br />
-                  </a><a href="http://420vallarta.com/movie_desc.php?id=165">Gelato</a><br />
-                  <a href="http://420vallarta.com/movie_desc.php?id=141">Gorilla</a><br />
+                  <a href="movie_desc.php?id=130">Afghan Kush</a><br />
+                  <a href="movie_desc.php?id=164">Black Jack</a> <br />
+                  <a href="movie_desc.php?id=140">Blueberry</a><br />
+<a href="movie_desc.php?id=141">Bubba Kush</a> <br />
+                  <a href="movie_desc.php?id=162"></a><a href="movie_desc.php?id=140">Candy Kush</a> <br />
+                  <a href="movie_desc.php?id=226">Chocolate Thai</a> <br />
+<a href="movie_desc.php?id=163">Durban Poison</a><a href="movie_desc.php?id=160"><br />
+                  </a><a href="movie_desc.php?id=165">Gelato</a><br />
+                  <a href="movie_desc.php?id=141">Gorilla</a><br />
                   <a href="https://420vallarta.com/movie_desc.php?id=285">GreenCrack</a> <br />
                   <a href="https://420vallarta.com/movie_desc.php?id=251">Jack Kerouac</a> <br />
                   <a href="http://420vallarta.com/movie_desc.php?id=162">OG Kush<br />
