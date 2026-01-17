@@ -1,0 +1,10 @@
+./public_html_new.zip
+/vendor/
+/node_modules/
+/.env
+/public_html_new.zip
+/storage/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/settings/db.php
