@@ -109,16 +109,19 @@ include 'header.php';
                 <p><br>
                 </p>
                 <p>Support us on <br />
-                  <a href="https://www.facebook.com/profile.php?id=61553636732357" target="_blank">Facebook</a> <br />
-                  <a href="https://twitter.com/420vallarta/" target="_blank">Twitter</a> <br />
-                  <a href="https://www.instagram.com/420.puertovallarta/" target="_blank">Instagram</a><a href="https://instagram.com/four20pv/" target="_blank"></a> <br />
-                  <a href="https://www.youtube.com/@420vallarta" target="_blank">YouTube<br />
-                  </a><a href="https://www.pinterest.com.mx/420puertovallarta/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
-                  </a><br />
+                  <a href="https://www.facebook.com/420cdmxco" target="_blank" rel="noopener">Facebook</a> <br />
+                  <a href="https://www.instagram.com/420cdmxco/" target="_blank" rel="noopener">Instagram</a> <br />
+                  <a href="https://x.com/420cdmxco" target="_blank" rel="noopener">X</a> <br />
+                  <a href="https://www.tumblr.com/blog/view/420cdmx/" target="_blank" rel="noopener">Tumblr</a> <br />
+                  <a href="https://www.youtube.com/@420.vallarta" target="_blank" rel="noopener">YouTube</a> <br />
+                  <a href="https://rumble.com/user/420vallarta" target="_blank" rel="noopener">Rumble</a> <br />
+                  <a href="https://www.tiktok.com/@420mexicocity" target="_blank" rel="noopener">TikTok</a> <br />
+                  <a href="https://www.pinterest.com.mx/420cdmxco/" target="_blank" rel="noopener">Pinterest</a><br />
+                  <br />
                   <br />
 You can also reach us by email
-            info@420vallarta.com </p>
-                <p><a href="http://420vallarta.com/">420vallarta.com</a></p>
+            <a href="mailto:Info@420cdmx.co">Info@420cdmx.co</a></p>
+                <p><a href="https://420cdmx.co/">420cdmx.co</a></p>
           </div>
         </div>
 

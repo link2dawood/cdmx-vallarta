@@ -108,6 +108,7 @@ if (isset($_GET['error'])) {
        alt="Product Inventory 420 Vallarta" width="84" height="84" border="0">
 </a>
  <img src="images/420 Vallarta Orders off.png" alt="Client Orders 420 Vallarta" width="83" height="83"> <a href="http://420vallarta.com/movie.php" target="_blank"><img src="/images/cashier 420 vallarta.png" alt="Cashier 420 Vallarta" name="Cashier" width="85" height="85" border="0" id="Cashier"></a>
+ <a href="admin_accounting.php" class="btn btn-success ms-2" style="vertical-align: top;" title="Total sales by period, payment type, and source">📊 Accounting</a>
 <br>
 <br>
 <table width="97%" border="0" align="right">

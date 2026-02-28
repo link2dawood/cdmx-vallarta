@@ -1,0 +1,30 @@
+# Dependencies (reinstalled in container)
+/vendor/
+/node_modules/
+
+# Git and env
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+
+# Local DB config (generated at container start)
+/settings/db.php
+
+# IDE and OS
+.idea
+.vscode
+.DS_Store
+*.log
+
+# Archives and temp
+*.zip
+/tmp/
+/storage/
+
+# Docker files we don't need inside the image
+Dockerfile
+docker-compose.yml
+.dockerignore
+DOCKER.md

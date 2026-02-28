@@ -82,16 +82,19 @@ Delivery Fee: $75 <br />
             
             <p><br>
               Support us on <br />
-              <a href="https://www.facebook.com/420cdmx" target="_blank">Facebook</a> <br />
-              <a href="https://twitter.com/420CDMX/" target="_blank">Twitter</a> <br />
-              <a href="https://www.instagram.com/420.cdmx/" target="_blank">Instagram</a> <br />
-              <a href="https://www.youtube.com/@420cdmx" target="_blank">YouTube<br />
-              </a><a href="https://www.pinterest.com.mx/420cdmx/" target="_blank">Pinterest</a><br />
+              <a href="https://www.facebook.com/420cdmxco" target="_blank" rel="noopener">Facebook</a> <br />
+              <a href="https://www.instagram.com/420cdmxco/" target="_blank" rel="noopener">Instagram</a> <br />
+              <a href="https://x.com/420cdmxco" target="_blank" rel="noopener">X</a> <br />
+              <a href="https://www.tumblr.com/blog/view/420cdmx/" target="_blank" rel="noopener">Tumblr</a> <br />
+              <a href="https://www.youtube.com/@420.vallarta" target="_blank" rel="noopener">YouTube</a> <br />
+              <a href="https://rumble.com/user/420vallarta" target="_blank" rel="noopener">Rumble</a> <br />
+              <a href="https://www.tiktok.com/@420mexicocity" target="_blank" rel="noopener">TikTok</a> <br />
+              <a href="https://www.pinterest.com.mx/420cdmxco/" target="_blank" rel="noopener">Pinterest</a><br />
               <br />
               <br />
 You can also reach us by email
-            info@420cdmx.co </p>
-            <p><a href="https://420cdmc.420vallarta.com/">420cdmc.420vallarta.com</a></p>
+            <a href="mailto:Info@420cdmx.co">Info@420cdmx.co</a></p>
+            <p><a href="https://420cdmx.co/">420cdmx.co</a></p>
           </div>
         </div>
 

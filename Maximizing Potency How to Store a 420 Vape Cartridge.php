@@ -37,16 +37,16 @@ If you &rsquo;ve begun vaping, you may be wondering about storing a vape cartrid
             Finally, use caution when storing a vape cartridge. Often, cartridges are made from relatively fragile material like glass, and depending on the manufacturer, may be easy to damage. Broken vape cartridges can lead to leaks that can ruin your cartridge. <br />
             </p>
                 <p>Support us on <br />
-                  <a href="https://www.facebook.com/profile.php?id=61553636732357" target="_blank">Facebook</a> <br />
-                  <a href="https://twitter.com/420vallarta/" target="_blank">Twitter</a> <br />
-                  <a href="https://www.instagram.com/420.puertovallarta/" target="_blank">Instagram</a><a href="https://instagram.com/four20pv/" target="_blank"></a> <br />
-                  <a href="https://www.youtube.com/@420vallarta" target="_blank">YouTube<br />
-                  </a><a href="https://www.pinterest.com.mx/420puertovallarta/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
+                  <a href="https://www.facebook.com/420cdmxco" target="_blank">Facebook</a> <br />
+                  <a href="https://x.com/420cdmxco" target="_blank">Twitter</a> <br />
+                  <a href="https://www.instagram.com/420cdmxco/" target="_blank">Instagram</a><a href="https://www.instagram.com/420cdmxco/" target="_blank"></a> <br />
+                  <a href="https://www.youtube.com/@420.vallarta" target="_blank">YouTube<br />
+                  </a><a href="https://www.pinterest.com.mx/420cdmxco/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
                   </a><br />
                   <br />
 You can also reach us by email
-            info@420vallarta.com </p>
-                <p><a href="http://420vallarta.com/">420vallarta.com</a></p>
+            Info@420cdmx.co </p>
+                <p><a href="https://420cdmx.co/">420vallarta.com</a></p>
           </div>
         </div>
 

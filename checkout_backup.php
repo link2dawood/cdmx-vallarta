@@ -78,7 +78,7 @@ if(isset($_POST['order_btn'])){
  $total_product = implode(', ',$product_name);
 
    $detail_query = mysqli_query($con, "INSERT INTO `ordere` (name, number, email, method, adresse, pin_code, total_products, total_price, dat, valid) VALUES('$name','$number','$email','$method','$adresse','$pin_code','$total_product','$ttl','$dat',0)") or die('failed query');
-   $to = "420vallarta@gmail.com";
+   $to = "Info@420cdmx.co";
    $subj = "420 Vallarta Order";
    $body = "
          Thank you for your confidence in 420 Vallarta!<br>
@@ -113,10 +113,10 @@ WhatsApp (52) 322 271 7643";
          $mail->setFrom('order@420vallarta.com', '420vallarta.com');
          $mail->addAddress($email, 'thankyou');  
             // Add a recipient
-         $mail->addAddress('420vallarta@gmail.com');               // Name is optional
-         $mail->addReplyTo('420vallarta@gmail.com', 'New order');
-         $mail->addCC('420vallarta@gmail.com');
-         $mail->addBCC('420vallarta@gmail.com');
+         $mail->addAddress('Info@420cdmx.co');               // Name is optional
+         $mail->addReplyTo('Info@420cdmx.co', 'New order');
+         $mail->addCC('Info@420cdmx.co');
+         $mail->addBCC('Info@420cdmx.co');
 
          $mail->Subject = '"420 Vallarta Order';
          $mail->Body    = $body;
@@ -125,7 +125,7 @@ WhatsApp (52) 322 271 7643";
 
          
          $mail2->setFrom('order@420vallarta.com', '420vallarta.com');
-         $mail2->addAddress('420vallarta@gmail.com', 'You have new order');  
+         $mail2->addAddress('Info@420cdmx.co', 'You have new order');  
             // Add a recipient
          //$mail->addAddress('ellen@example.com');               // Name is optional
          //$mail->addReplyTo('info@exampl48e.com', 'Information');
@@ -330,7 +330,7 @@ PAYMENT<br>
                     <br>
     REACH US </strong><br>
                     Via Online Chat<br>
-                  Email; <a href="#">info@420vallarta.com</a><br>
+                  Email; <a href="mailto:Info@420cdmx.co">Info@420cdmx.co</a><br>
                 WhatsApp; (52)  322 271 7643 </div>
 </div>
       

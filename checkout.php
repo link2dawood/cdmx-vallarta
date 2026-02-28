@@ -45,6 +45,7 @@ if(isset($_POST['order_btn'])){
    $method = mysqli_real_escape_string($con, $_POST['method']);
    $adresse = mysqli_real_escape_string($con, $_POST['adresse']);
    $pin_code = mysqli_real_escape_string($con, $_POST['pin_code']);
+   $sales_source = isset($_POST['sales_source']) ? mysqli_real_escape_string($con, trim($_POST['sales_source'])) : '';
    $dat = date('Y-m-d H:i:s');
 
    $price_total = 0;
@@ -81,7 +82,18 @@ if(isset($_POST['order_btn'])){
    $client_num_result = mysqli_fetch_assoc($client_num_query);
    $next_client_number = max(101200, ($client_num_result['max_client'] ?? 101199) + 1);
 
-   $detail_query = mysqli_query($con, "INSERT INTO `ordere` (name, number, email, method, adresse, pin_code, total_products, total_price, dat, valid, client_number) VALUES('$name','$number','$email','$method','$adresse','$pin_code','$total_product','$ttl','$dat',0,'$next_client_number')") or die('failed query');
+   // Check if ordere has source column (sales source / "How did you find us?")
+   $has_source_col = false;
+   $col_check = mysqli_query($con, "SHOW COLUMNS FROM ordere LIKE 'source'");
+   if ($col_check && mysqli_num_rows($col_check) > 0) {
+       $has_source_col = true;
+   }
+
+   if ($has_source_col) {
+       $detail_query = mysqli_query($con, "INSERT INTO `ordere` (name, number, email, method, adresse, pin_code, total_products, total_price, dat, valid, client_number, source) VALUES('$name','$number','$email','$method','$adresse','$pin_code','$total_product','$ttl','$dat',0,'$next_client_number','$sales_source')") or die('failed query');
+   } else {
+       $detail_query = mysqli_query($con, "INSERT INTO `ordere` (name, number, email, method, adresse, pin_code, total_products, total_price, dat, valid, client_number) VALUES('$name','$number','$email','$method','$adresse','$pin_code','$total_product','$ttl','$dat',0,'$next_client_number')") or die('failed query');
+   }
 
    // Get the order ID for the newly created order
    $order_id = mysqli_insert_id($con);
@@ -105,8 +117,8 @@ if(isset($_POST['order_btn'])){
    $receipt_sent = false;
 
    // Send simple admin notification
-   $mail2->setFrom('order@420vallarta.com', '420vallarta.com');
-   $mail2->addAddress('420vallarta@gmail.com', 'New Order Notification');
+   $mail2->setFrom('order@420vallarta.com', '420 CDMX');
+   $mail2->addAddress('Info@420cdmx.co', 'New Order Notification');
    $mail2->Subject = 'New Order #' . $order_id . ' - ' . $name;
    $mail2->isHTML(true);
    $mail2->Body = "
@@ -332,7 +344,7 @@ PAYMENT<br>
                     <br>
     REACH US </strong><br>
                     Via Online Chat<br>
-                  Email; <a href="#">info@420vallarta.com</a><br>
+                  Email; <a href="mailto:Info@420cdmx.co">Info@420cdmx.co</a><br>
                 WhatsApp; (52)  322 271 7643 </div>
 </div>
 
@@ -408,6 +420,20 @@ PAYMENT<br>
         <div class="inputBox"> <span>Your Email</span>
             <input type="email" placeholder="enter your email" name="email" />
         </div>
+        <div class="inputBox"> <span>How did you find us? (Sales Source)</span>
+            <select name="sales_source" id="sales-source">
+              <option value="">— Select —</option>
+              <option value="Returning Client">Returning Client</option>
+              <option value="Friend">Friend</option>
+              <option value="Google">Google</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Reddit/Quora">Reddit/Quora</option>
+              <option value="Poster/Promotional Item">Poster/Promotional Item</option>
+              <option value="Other">Other</option>
+            </select>
+        </div>
         <div class="inputBox"> <span>Payment method</span>
             <select name="method" required id="payment-method" onchange="showPaymentInstructions()">
               <option value="">Select Payment Method</option>
@@ -458,7 +484,7 @@ PAYMENT<br>
                     <small><strong>International Transfer:</strong> Contact us for SWIFT code and additional details</small>
                 </div>
                 <div style="background: #d4edda; padding: 10px; border-radius: 5px;">
-                    <small><strong>Confirmation:</strong> Send transfer receipt to info@420vallarta.com or WhatsApp</small>
+                    <small><strong>Confirmation:</strong> Send transfer receipt to Info@420cdmx.co or WhatsApp</small>
                 </div>
             </div>
 

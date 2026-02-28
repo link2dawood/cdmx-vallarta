@@ -666,7 +666,7 @@ function sendEReceipt($order_id, $custom_settings = array()) {
 
     $mail->setFrom($config['receipt_from_email'], $config['receipt_from_name']);
     $mail->addAddress($receipt_data['client_info']['email'], $receipt_data['client_info']['name']);
-    $mail->addBCC('420vallarta@gmail.com'); // Admin copy
+    $mail->addBCC('Info@420cdmx.co'); // Admin copy
 
     $mail->isHTML(true);
     $mail->Subject = str_replace('{order_id}', $receipt_data['receipt_id'], $config['receipt_subject']);
@@ -830,7 +830,7 @@ function generateTextReceipt($receipt_data) {
     $text .= "💬 WhatsApp: " . $receipt_data['company_info']['whatsapp'] . "\n\n";
 
     $text .= "━━━━━━━━━━━━━━━━━━━━━━\n";
-    $text .= "📱 FOLLOW US @420vallarta\n";
+    $text .= "📱 FOLLOW US @420cdmxco\n";
     $text .= "━━━━━━━━━━━━━━━━━━━━━━\n";
 
     // Social media icons for text receipt

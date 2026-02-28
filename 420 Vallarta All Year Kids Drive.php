@@ -4,7 +4,7 @@ include 'header.php';
 <div class="container"><div class="row"><div class="col-md-12">
   <h1>420 Vallarta All Year Kids Drive<br />
     <br />
-    <img src="images/420 Vallarta Kids Christmas Toy Drive.png" alt="420 Vallarta Christmas Toy Drive" width="100%" height="100%" longdesc="http://420vallarta.com/420 Vallarta kids Xmas Drive.html" /><br />
+    <img src="images/420 Vallarta Kids Christmas Toy Drive.png" alt="420 Vallarta Christmas Toy Drive" width="100%" height="100%" longdesc="https://420cdmx.co/420 Vallarta kids Xmas Drive.html" /><br />
 </h1>
             <p>This started off as a Christmas Kids drive to help some of the local communities, but we decided that since 420 Vallarta delivers all year and you guys and gals visit all year. Why not do a good thing, all year ! </p>
             <p>We are accepting donations of clothes (New or Used)<br />
@@ -28,16 +28,16 @@ include 'header.php';
                 <br />
       </p>
             <p>Support us on <br />
-                <a href="https://www.facebook.com/profile.php?id=61553636732357" target="_blank">Facebook</a> <br />
-                <a href="https://twitter.com/420vallarta/" target="_blank">Twitter</a> <br />
-                <a href="https://www.instagram.com/420.puertovallarta/" target="_blank">Instagram</a><a href="https://instagram.com/four20pv/" target="_blank"></a> <br />
-                <a href="https://www.youtube.com/@420vallarta" target="_blank">YouTube<br />
-                </a><a href="https://www.pinterest.com.mx/420puertovallarta/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
+                <a href="https://www.facebook.com/420cdmxco" target="_blank">Facebook</a> <br />
+                <a href="https://x.com/420cdmxco" target="_blank">Twitter</a> <br />
+                <a href="https://www.instagram.com/420cdmxco/" target="_blank">Instagram</a><a href="https://www.instagram.com/420cdmxco/" target="_blank"></a> <br />
+                <a href="https://www.youtube.com/@420.vallarta" target="_blank">YouTube<br />
+                </a><a href="https://www.pinterest.com.mx/420cdmxco/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
                 </a><br />
                 <br />
               You can also reach us by email
-              info@420vallarta.com </p>
-            <p><a href="http://420vallarta.com/">420vallarta.com</a></p>
+              Info@420cdmx.co </p>
+            <p><a href="https://420cdmx.co/">420vallarta.com</a></p>
             <h2>&nbsp;</h2>
       </div>
     </div>

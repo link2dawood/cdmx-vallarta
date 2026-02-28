@@ -351,7 +351,7 @@ $config = getReceiptConfig();
                                         <hr>
 
                                         <div class="social-handle text-center">
-                                            <small>Follow us: @420vallarta</small>
+                                            <small>Follow us: @420cdmxco</small>
                                         </div>
                                     </div>
                                 </div>

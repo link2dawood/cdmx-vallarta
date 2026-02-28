@@ -42,23 +42,23 @@ Under Mexican cannabis law, the personal use of cannabis is decriminalized. A tr
             We try to make it as easy as ordering and receiving pizza.
             .<br />
             <br />
-            <div align="center"><a href="http://420vallarta.com/420%20Vallarta%20Nationwide%20Cannabis%20Marijuana%20Shipping%20Mexico.php">Learn More about Nationwide Cannabis Marijuana Shipping in Mexico</a>
+            <div align="center"><a href="https://420cdmx.co/420%20Vallarta%20Nationwide%20Cannabis%20Marijuana%20Shipping%20Mexico.php">Learn More about Nationwide Cannabis Marijuana Shipping in Mexico</a>
               </p>
             </div>
-            <p><a href="http://420vallarta.com/420 Vallarta Nationwide Cannabis Marijuana Shipping Mexico.php"><img src="images/420 Vallarta Nationwide Cannabis Marijuana Shipping Mexico .png" alt="Nationwide Cannabis Marijuana Shipping in Mexico" width="100%" height="100%" border="0" longdesc="http://420vallarta.com/420%20Vallarta%20Nationwide%20Cannabis%20Marijuana%20Shipping%20Mexico.php" /></a><br />
+            <p><a href="https://420cdmx.co/420 Vallarta Nationwide Cannabis Marijuana Shipping Mexico.php"><img src="images/420 Vallarta Nationwide Cannabis Marijuana Shipping Mexico .png" alt="Nationwide Cannabis Marijuana Shipping in Mexico" width="100%" height="100%" border="0" longdesc="https://420cdmx.co/420%20Vallarta%20Nationwide%20Cannabis%20Marijuana%20Shipping%20Mexico.php" /></a><br />
             
             <p><br>
               Support us on <br />
-              <a href="https://www.facebook.com/profile.php?id=61553636732357" target="_blank">Facebook</a> <br />
-              <a href="https://twitter.com/420vallarta/" target="_blank">Twitter</a> <br />
-              <a href="https://www.instagram.com/420.puertovallarta/" target="_blank">Instagram</a><a href="https://instagram.com/four20pv/" target="_blank"></a> <br />
-              <a href="https://www.youtube.com/@420vallarta" target="_blank">YouTube<br />
-              </a><a href="https://www.pinterest.com.mx/420puertovallarta/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
+              <a href="https://www.facebook.com/420cdmxco" target="_blank">Facebook</a> <br />
+              <a href="https://x.com/420cdmxco" target="_blank">Twitter</a> <br />
+              <a href="https://www.instagram.com/420cdmxco/" target="_blank">Instagram</a><a href="https://www.instagram.com/420cdmxco/" target="_blank"></a> <br />
+              <a href="https://www.youtube.com/@420.vallarta" target="_blank">YouTube<br />
+              </a><a href="https://www.pinterest.com.mx/420cdmxco/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
               </a><br />
               <br />
 You can also reach us by email
-            info@420vallarta.com </p>
-            <p><a href="http://420vallarta.com/">420vallarta.com</a></p>
+            Info@420cdmx.co </p>
+            <p><a href="https://420cdmx.co/">420vallarta.com</a></p>
           </div>
         </div>
 

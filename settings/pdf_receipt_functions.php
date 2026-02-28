@@ -252,7 +252,7 @@ function buildReceiptHTML($order_data, $settings, $receipt_id) {
                     <strong>Account Number:</strong> 4152 3142 6559 7115<br>
                     <strong>Bank:</strong> BBVA<br>
                     <strong>Reference:</strong> ' . (!empty($order_data['client_number']) ? 'CL-' . $order_data['client_number'] : 'CV-' . str_pad($order_data['id'], 6, '0', STR_PAD_LEFT)) . ' (Your Client Number)<br><br>
-                    Send receipt to: info@420vallarta.com or WhatsApp: ' . $settings['whatsapp_number'] . '
+                    Send receipt to: Info@420cdmx.co or WhatsApp: ' . $settings['whatsapp_number'] . '
                 </div>';
             break;
 
@@ -366,7 +366,7 @@ function sendEmailWithPDFReceipt($order_data, $pdf_content, $filename, $custom_s
     // Set sender and recipient
     $mail->setFrom($settings['receipt_from_email'], $settings['receipt_from_name']);
     $mail->addAddress($order_data['email'], $order_data['name']);
-    $mail->addBCC('420vallarta@gmail.com'); // Admin copy
+    $mail->addBCC('Info@420cdmx.co'); // Admin copy
 
     // Email content
     $receipt_id = generateReceiptID($order_data['id']);
@@ -465,7 +465,7 @@ function buildEmailBody($order_data, $settings, $receipt_id) {
                 <strong>Account Number:</strong> 4152 3142 6559 7115<br>
                 <strong>Bank:</strong> BBVA<br>
                 <strong>Reference:</strong> ' . (!empty($order_data['client_number']) ? 'CL-' . $order_data['client_number'] : 'CV-' . str_pad($order_data['id'], 6, '0', STR_PAD_LEFT)) . ' (Your Client Number)<br><br>
-                Send receipt to: info@420vallarta.com or WhatsApp: ' . $settings['whatsapp_number'];
+                Send receipt to: Info@420cdmx.co or WhatsApp: ' . $settings['whatsapp_number'];
             break;
 
         case 'Visa/MasterCard/American Express':

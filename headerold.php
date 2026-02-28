@@ -236,18 +236,18 @@ global $con;
                     <div class="d-none d-xl-inline-block">
                         <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                             <li>
-                                <a href="https://www.facebook.com/profile.php?id=61553636732357" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>                            </li>
+                                <a href="https://www.facebook.com/420cdmxco" target="_blank" rel="noopener" class="pl-0 pr-3"><span class="icon-facebook"></span></a>                            </li>
 								<li>
-                                <a href="https://www.youtube.com/@420vallarta" target="_blank" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>                            </li>
+                                <a href="https://www.youtube.com/@420.vallarta" target="_blank" rel="noopener" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>                            </li>
                             <li>
-                                <a href="https://twitter.com/420Vallarta/" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>                            </li>
+                                <a href="https://x.com/420cdmxco" target="_blank" rel="noopener" class="pl-3 pr-3"><span class="icon-twitter"></span></a>                            </li>
                             <li>
-                                <a href="https://www.instagram.com/420.puertovallarta/" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>                            </li>
+                                <a href="https://www.instagram.com/420cdmxco/" target="_blank" rel="noopener" class="pl-3 pr-3"><span class="icon-instagram"></span></a>                            </li>
                             <li>
-                                <a href="https://www.tumblr.com/blog/view/420puertovallarta/" target="_blank" class="pl-3 pr-3"><span class="icon-tumblr"></span></a>                            </li>
+                                <a href="https://www.tumblr.com/blog/view/420cdmx/" target="_blank" rel="noopener" class="pl-3 pr-3"><span class="icon-tumblr"></span></a>                            </li>
 								
 							<li>
-								<a href="https://www.pinterest.com.mx/420puertovallarta/" target="_blank" class="pl-3 pr-3"><span class="icon-pinterest"></span></a>                            </li>
+								<a href="https://www.pinterest.com.mx/420cdmxco/" target="_blank" rel="noopener" class="pl-3 pr-3"><span class="icon-pinterest"></span></a>                            </li>
 						
                         </ul>
                     </div>

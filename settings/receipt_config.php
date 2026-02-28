@@ -13,17 +13,20 @@ $GLOBALS['receipt_config'] = array(
     'company_name' => '420 Vallarta',
     'company_address' => 'Puerto Vallarta, Jalisco, Mexico',
     'company_phone' => '+52 322 271 7643',
-    'company_email' => 'info@420vallarta.com',
-    'company_website' => 'www.420vallarta.com',
+    'company_email' => 'Info@420cdmx.co',
+    'company_website' => 'www.420cdmx.co',
     'whatsapp_number' => '+52 322 271 7643',
 
     // Social Media
     'social_handles' => array(
-        'instagram' => '@420.puertovallarta',
-        'facebook' => '@420vallarta',
-        'twitter' => '@420vallarta',
-        'youtube' => '@420vallarta',
-        'pinterest' => '@420puertovallarta'
+        'facebook' => '420cdmxco',
+        'instagram' => '420cdmxco',
+        'twitter' => '420cdmxco',
+        'tumblr' => 'blog/view/420cdmx',
+        'youtube' => '420.vallarta',
+        'rumble' => '420vallarta',
+        'tiktok' => '420mexicocity',
+        'pinterest' => '420cdmxco'
     ),
 
     // Default Values
@@ -51,7 +54,7 @@ $GLOBALS['receipt_config'] = array(
     // Email Settings
     'receipt_subject' => '420 Vallarta - Order Receipt #{order_id}',
     'receipt_from_name' => '420 Vallarta',
-    'receipt_from_email' => 'order@420vallarta.com',
+    'receipt_from_email' => 'Info@420cdmx.co',
 
     // Receipt Template Settings
     'logo_url' => 'https://420vallarta.com/images/PV emblem round.png',

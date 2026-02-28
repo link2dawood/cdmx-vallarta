@@ -72,7 +72,7 @@ include 'header.php';
             <p><strong>Copyright/Trademark Information.</strong> Copyright ©. All rights reserved.&nbsp; All trademarks, logos and service marks displayed on the Site are our property or the property of other third-parties. You are not permitted to use these Marks without our prior written consent or the consent of such third party which may own the Marks.</p>
             <h2>Contact Information</h2>
             
-            <p>Email: info@420vallarta.com</p>
+            <p>Email: <a href="mailto:Info@420cdmx.co">Info@420cdmx.co</a></p>
         </div>
     </div>
 </div>

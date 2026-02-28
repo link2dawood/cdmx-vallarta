@@ -143,7 +143,7 @@ a2a_config.num_services = 4;
         <!--  Non-Essential, But Required for Analytics -->
 
         <meta property="fb:app_id" content="920213225496176" />
-        <meta name="twitter:site" content="@420vallarta">
+        <meta name="twitter:site" content="@420cdmxco">
     </head>
 	
 <?PHP

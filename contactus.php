@@ -14,8 +14,8 @@ include 'header.php';
 		$code = $_POST['code'];
 		$ordermessage = $_POST['message'];
 		
-		$to = '420cdmx@gmail.com';
-		$from = 'orders@420cdmx.co';
+		$to = 'Info@420cdmx.co';
+		$from = 'Info@420cdmx.co';
 		$subject = 'New order';
 		
 		$message = "s
@@ -132,7 +132,7 @@ include 'header.php';
                   REACH US </strong><br />
                     Via Online Chat<br /> 
                   <br />
-                  Email; <a href="#">info@420cdmx.co</a><br />
+                  Email; <a href="mailto:Info@420cdmx.co">Info@420cdmx.co</a><br />
                 WhatsApp;  (52)  322 271 7643<br />
                 <a href="faq.php"><br />
                 Frequently Asked Questions</a><br />

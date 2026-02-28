@@ -31,16 +31,16 @@ include 'header.php';
                   In fact, scientists have repeatedly questioned this classification which prevents research on real world cannabis and only allows U.S. scientists to study cannabis that the federal government grows in Mississippi. Some argue that the current legal status is outdated and &ldquo;thwarts legitimate research&rdquo; exploring the potential of cannabis use in the medical field, Though both social and political views on cannabis are changing rapidly, for now, citizens must abide by the laws set forth by state and federal governments for the use of both medical and recreational cannabis.</p>
                 <p><br />
                   Support us on <br />
-                  <a href="https://www.facebook.com/profile.php?id=61553636732357" target="_blank">Facebook</a> <br />
-                  <a href="https://twitter.com/420vallarta/" target="_blank">Twitter</a> <br />
-                  <a href="https://www.instagram.com/420.puertovallarta/" target="_blank">Instagram</a><a href="https://instagram.com/four20pv/" target="_blank"></a> <br />
-                  <a href="https://www.youtube.com/@420vallarta" target="_blank">YouTube<br />
-                  </a><a href="https://www.pinterest.com.mx/420puertovallarta/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
+                  <a href="https://www.facebook.com/420cdmxco" target="_blank">Facebook</a> <br />
+                  <a href="https://x.com/420cdmxco" target="_blank">Twitter</a> <br />
+                  <a href="https://www.instagram.com/420cdmxco/" target="_blank">Instagram</a><a href="https://www.instagram.com/420cdmxco/" target="_blank"></a> <br />
+                  <a href="https://www.youtube.com/@420.vallarta" target="_blank">YouTube<br />
+                  </a><a href="https://www.pinterest.com.mx/420cdmxco/" target="_blank">Pinterest</a><a href="https://www.youtube.com/watch?v=7hHK9H6CgQ0" target="_blank"><br />
                   </a><br />
                   <br />
 You can also reach us by email
-            info@420vallarta.com </p>
-                <p><a href="http://420vallarta.com/">420vallarta.com</a></p>
+            Info@420cdmx.co </p>
+                <p><a href="https://420cdmx.co/">420vallarta.com</a></p>
           </div>
         </div>
 

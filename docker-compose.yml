@@ -1,0 +1,56 @@
+# 420 CDMX / Vallarta - App + MySQL + PHPMyAdmin
+# Usage: copy .env.example to .env, then: docker compose up -d
+
+services:
+  app:
+    build: .
+    container_name: cdmx-vallarta-app
+    ports:
+      - "8080:80"
+    environment:
+      DB_HOST: db
+      DB_USER: ${DB_USER:-vallarta}
+      DB_PASS: ${DB_PASS:-vallarta}
+      DB_NAME: ${DB_NAME:-vallarta}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      # Persist uploads so they survive container rebuilds
+      - app_uploads:/var/www/html/uploads
+
+  db:
+    image: mariadb:10.11
+    container_name: cdmx-vallarta-db
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
+      MYSQL_DATABASE: ${DB_NAME:-vallarta}
+      MYSQL_USER: ${DB_USER:-vallarta}
+      MYSQL_PASSWORD: ${DB_PASS:-vallarta}
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: cdmx-vallarta-phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: ${DB_USER:-vallarta}
+      PMA_PASSWORD: ${DB_PASS:-vallarta}
+      UPLOAD_LIMIT: 50M
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  db_data:
+  app_uploads:

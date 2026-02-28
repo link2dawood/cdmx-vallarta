@@ -186,7 +186,7 @@ function buildWhatsAppMessage($order, $products, $subtotal, $delivery_fee, $disc
     
     // Social media - only X/Twitter
     $msg .= "Follow us on X\n";
-    $msg .= "@420vallarta\n";
+    $msg .= "@420cdmxco\n";
     
     return $msg;
 }

@@ -25,7 +25,7 @@ global $con;
 <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11226186341"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11226186341'); </script>
 
     <title>420 CDMX - Marijuana Cannabis Delivery. Order Online in Mexico City</title>
-    <link rel="canonical" href="https://420cdmc.420vallarta.com/" />
+    <link rel="canonical" href="https://420cdmx.co/" />
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -48,20 +48,20 @@ global $con;
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://420cdmc.420vallarta.com">
+    <meta property="og:url" content="https://420cdmx.co">
     <meta property="og:title" content="420 CDMX - Marijuana Cannabis Connoisseurs Dispensary">
     <meta property="og:description" content="Order Marijuana Cannabis Online in Mexico City CDMX">
-    <meta property="og:image" content="https://420cdmc.420vallarta.com/uploads/CDMX emblem round.png">
+    <meta property="og:image" content="https://420cdmx.co/uploads/CDMX emblem round.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://420cdmc.420vallarta.com">
+    <meta property="twitter:url" content="https://420cdmx.co">
     <meta property="twitter:title" content="420 CDMX - Marijuana Cannabis Connoisseurs Dispensary">
     <meta property="twitter:description" content="Order Marijuana Cannabis Online in Mexico City CDMX">
-    <meta property="twitter:image" content="https://420cdmc.420vallarta.com/uploads/CDMX emblem round.png">
+    <meta property="twitter:image" content="https://420cdmx.co/uploads/CDMX emblem round.png">
 
 
-    <link rel="canonical" href="https://420cdmc.420vallarta.com/">
+    <link rel="canonical" href="https://420cdmx.co/">
 
     <!--Favicon-->
     <link rel="shortcut icon" href="Favi/favicon.ico" >
@@ -171,7 +171,7 @@ global $con;
             <div class="row align-items-center">
 
                 <div class="col-6 col-xl-2" data-aos="fade-down">
-                    <h1 align="center" class="mb-0"><a href="index.php" class="text-black h2 mb-0"><img src="images/420 medal.png" alt="420 CDMX" width="50" height="50" longdesc="https://420cdmc.420vallarta.com"></a><span class="style1"> </span><a href="index.php" class="text-black h2 mb-0"><span class="style1"><br>
+                    <h1 align="center" class="mb-0"><a href="index.php" class="text-black h2 mb-0"><img src="images/420 medal.png" alt="420 CDMX" width="50" height="50" longdesc="https://420cdmx.co"></a><span class="style1"> </span><a href="index.php" class="text-black h2 mb-0"><span class="style1"><br>
                     420 CDMX </span></a></h1>
                 </div>
                 <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
@@ -249,19 +249,29 @@ global $con;
                     <div class="d-none d-xl-inline-block">
                         <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                             <li>
-                                <a href="https://www.facebook.com/420cdmx" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>                            </li>
-								<li>
-                                <a href="https://www.youtube.com/@420cdmx" target="_blank" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>                            </li>
+                                <a href="https://www.facebook.com/420cdmxco" target="_blank" class="pl-0 pr-3" rel="noopener"><span class="icon-facebook"></span></a>
+                            </li>
                             <li>
-                                <a href="https://twitter.com/420CDMX/" target="_blank" class="pl-3 pr-3"><span class="icon-twitter"></span></a>                            </li>
+                                <a href="https://www.instagram.com/420cdmxco/" target="_blank" class="pl-3 pr-3" rel="noopener"><span class="icon-instagram"></span></a>
+                            </li>
                             <li>
-                                <a href="https://www.instagram.com/420.cdmx/" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>                            </li>
+                                <a href="https://x.com/420cdmxco" target="_blank" class="pl-3 pr-3" rel="noopener"><span class="icon-twitter"></span></a>
+                            </li>
                             <li>
-                                <a href="https://www.tumblr.com/blog/view/420cdmx/" target="_blank" class="pl-3 pr-3"><span class="icon-tumblr"></span></a>                            </li>
-								
-							<li>
-								<a href="https://www.pinterest.com.mx/420cdmx/" target="_blank" class="pl-3 pr-3"><span class="icon-pinterest"></span></a>                            </li>
-						
+                                <a href="https://www.tumblr.com/blog/view/420cdmx/" target="_blank" class="pl-3 pr-3" rel="noopener"><span class="icon-tumblr"></span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/@420.vallarta" target="_blank" class="pl-3 pr-3" rel="noopener"><span class="icon-youtube-play"></span></a>
+                            </li>
+                            <li>
+                                <a href="https://rumble.com/user/420vallarta" target="_blank" class="pl-3 pr-3" rel="noopener">Rumble</a>
+                            </li>
+                            <li>
+                                <a href="https://www.tiktok.com/@420mexicocity" target="_blank" class="pl-3 pr-3" rel="noopener">TikTok</a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com.mx/420cdmxco/" target="_blank" class="pl-3 pr-3" rel="noopener"><span class="icon-pinterest"></span></a>
+                            </li>
                         </ul>
                     </div>
 

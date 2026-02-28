@@ -135,7 +135,7 @@ if ($_POST['action'] === 'generate_test_pdf') {
                         <div class="mb-3">
                             <label class="form-label">Customer Email</label>
                             <input type="email" class="form-control" name="customer_email"
-                                   value="<?= $_POST['customer_email'] ?? 'test@420vallarta.com' ?>">
+                                   value="<?= $_POST['customer_email'] ?? 'test@420cdmx.co' ?>">
                         </div>
                     </div>
                     <div class="col-md-6">

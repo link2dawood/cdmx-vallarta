@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
       
       $body = "thankyou";
       
-      $mail->setFrom('420vallarta@gmail.com', 'Mailer');
+      $mail->setFrom('Info@420cdmx.co', '420 CDMX');
          $mail->addAddress($email, 'thankyou');  
             // Add a recipient
          //$mail->addAddress('ellen@example.com');               // Name is optional

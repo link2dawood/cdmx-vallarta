@@ -43,6 +43,13 @@ if(!$query_get_data || mysqli_num_rows($query_get_data) == 0) {
     header('location:admin.php?error=order_not_found');
     exit();
 }
+
+// Check if ordere has source column (Sales Source / "How did you find us?")
+$source_column_exists = false;
+$col_check = mysqli_query($con, "SHOW COLUMNS FROM ordere LIKE 'source'");
+if ($col_check && mysqli_num_rows($col_check) > 0) {
+    $source_column_exists = true;
+}
 $order_data = mysqli_fetch_array($query_get_data);
 
 // Fetch available products
@@ -65,6 +72,7 @@ if(isset($_POST['done'])) {
     $method = isset($_POST['method']) ? trim($_POST['method']) : '';
     $total_price = isset($_POST['total_price']) ? trim($_POST['total_price']) : '';
     $client_number = isset($_POST['client_number']) ? intval($_POST['client_number']) : 0;
+    $sales_source = isset($_POST['sales_source']) ? trim($_POST['sales_source']) : '';
 
     // Validate new order stock levels
     $stock_issues = validateOrderStock($order);
@@ -102,8 +110,13 @@ if(isset($_POST['done'])) {
         $order = mysqli_real_escape_string($con, $order);
         $method = mysqli_real_escape_string($con, $method);
         $total_price = mysqli_real_escape_string($con, $total_price);
+        $sales_source_esc = mysqli_real_escape_string($con, $sales_source);
 
-        $update_query = "UPDATE ordere SET name='$username', adresse='$adresse', total_products='$order', method='$method', total_price='$total_price', client_number='$client_number' WHERE id = $order_id";
+        $update_query = "UPDATE ordere SET name='$username', adresse='$adresse', total_products='$order', method='$method', total_price='$total_price', client_number='$client_number'";
+        if ($source_column_exists) {
+            $update_query .= ", source='$sales_source_esc'";
+        }
+        $update_query .= " WHERE id = $order_id";
         $update_result = mysqli_query($con, $update_query);
 
         if($update_result) {
@@ -308,7 +321,23 @@ if (!empty($errors)) {
                                 </div>
                             </div>
                         </div>
-                        
+                        <?php if ($source_column_exists): ?>
+                        <div class="mb-3">
+                            <label for="sales_source" class="form-label">Sales Source (How did you find us?)</label>
+                            <select class="form-control" id="sales_source" name="sales_source">
+                                <option value="">— Select —</option>
+                                <option value="Returning Client" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Returning Client') ? 'selected' : ''; ?>>Returning Client</option>
+                                <option value="Friend" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Friend') ? 'selected' : ''; ?>>Friend</option>
+                                <option value="Google" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Google') ? 'selected' : ''; ?>>Google</option>
+                                <option value="Twitter" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Twitter') ? 'selected' : ''; ?>>Twitter</option>
+                                <option value="Instagram" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Instagram') ? 'selected' : ''; ?>>Instagram</option>
+                                <option value="Facebook" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Facebook') ? 'selected' : ''; ?>>Facebook</option>
+                                <option value="Reddit/Quora" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Reddit/Quora') ? 'selected' : ''; ?>>Reddit/Quora</option>
+                                <option value="Poster/Promotional Item" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Poster/Promotional Item') ? 'selected' : ''; ?>>Poster/Promotional Item</option>
+                                <option value="Other" <?php echo (isset($order_data['source']) && $order_data['source'] == 'Other') ? 'selected' : ''; ?>>Other</option>
+                            </select>
+                        </div>
+                        <?php endif; ?>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <a href="admin.php" class="btn btn-secondary me-md-2">Cancel</a>
                             <button type="submit" name="done" class="btn btn-primary">Update Order</button>
